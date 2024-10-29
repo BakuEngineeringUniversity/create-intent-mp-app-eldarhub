@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         val intent = Intent(this, WelcomeActivity::class.java)
         startActivity(intent)
-        finish() // Optional: if you don't want MainActivity in the back stack
+        finish()
     }
 }

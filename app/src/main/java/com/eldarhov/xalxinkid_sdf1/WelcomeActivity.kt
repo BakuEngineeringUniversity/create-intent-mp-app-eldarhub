@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome) // Ensure this is your correct layout
+        setContentView(R.layout.activity_welcome)
 
-        // Initialize your buttons
+        // Initialize buttons
         val loginButton: Button = findViewById(R.id.loginButton)
         val signupButton: Button = findViewById(R.id.signupButton)
 

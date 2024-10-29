@@ -17,7 +17,6 @@ class RegistrationActivity : AppCompatActivity() {
         val signUpButton = findViewById<Button>(R.id.signupButton)
 
         signUpButton.setOnClickListener {
-            // Handle sign-up logic here
         }
     }
 }

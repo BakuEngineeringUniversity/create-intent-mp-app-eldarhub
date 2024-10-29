@@ -1,6 +1,6 @@
 package com.eldarhov.xalxinkid_sdf1
 
-import android.content.Intent // Don't forget to import this!
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        // Initialize UI components
+        // UI components
         val emailEditText = findViewById<EditText>(R.id.email)
         val passwordEditText = findViewById<EditText>(R.id.password)
         val loginButton = findViewById<Button>(R.id.loginButton)
@@ -27,10 +27,8 @@ class LoginActivity : AppCompatActivity() {
 
         // Set up the click listener for the login button
         loginButton.setOnClickListener {
-            // Handle login logic here
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
-            // Add your login logic (e.g., validation, API call, etc.)
         }
     }
 }

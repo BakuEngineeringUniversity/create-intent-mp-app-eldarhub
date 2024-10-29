@@ -27,7 +27,7 @@
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistrationActivity" />
-        <activity android:name=".ForgotPasswordActivity" />  <!-- Added ForgotPasswordActivity -->
+        <activity android:name=".ForgotPasswordActivity" />
     </application>
 
 </manifest>

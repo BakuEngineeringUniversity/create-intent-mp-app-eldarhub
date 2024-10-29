@@ -15,7 +15,6 @@ class ResetPasswordActivity : AppCompatActivity() {
         val saveButton = findViewById<Button>(R.id.saveButton)
 
         saveButton.setOnClickListener {
-            // Logic to save the new password
         }
     }
 }
