@@ -16,13 +16,13 @@ class WelcomeActivity : AppCompatActivity() {
 
         // Set click listener for the login button
         loginButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java) // Change to your LoginActivity
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
         // Set click listener for the signup button
         signupButton.setOnClickListener {
-            val intent = Intent(this, RegistrationActivity::class.java) // Change to your RegistrationActivity
+            val intent = Intent(this, RegistrationActivity::class.java) 
             startActivity(intent)
         }
     }
